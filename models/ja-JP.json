@@ -1,0 +1,85 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "なぞなぞクイズ",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "QuizIntent",
+          "slots": [],
+          "samples": [
+            "クイズを言って",
+            "クイズを出して",
+            "なぞなぞを出して",
+            "なぞなぞを言って"
+          ]
+        },
+        {
+          "name": "AnswerIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AnswerType"
+            }
+          ],
+          "samples": [
+            "わかんない",
+            "パス",
+            "わかりません",
+            "わからない",
+            "{answer}",
+            "{answer} かな",
+            "答えは {answer}",
+            "{answer} だと思う",
+            "たぶん {answer}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "time",
+              "name": {
+                "value": "時間",
+                "synonyms": [
+                  "タイム",
+                  "時"
+                ]
+              }
+            }
+          ],
+          "name": "AnswerType"
+        }
+      ]
+    }
+  },
+  "version": "7"
+}
