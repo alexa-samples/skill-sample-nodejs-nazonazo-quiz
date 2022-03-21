@@ -1,6 +1,12 @@
 # Alexaスキル「なぞなぞクイズ」
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
 
+# ** このリポジトリはアーカイブされています **
+このリポジトリは、ポイントインタイムリファレンスとして引き続き利用できますが、それ以上の更新やサポートは優先されません。
+
+# ** This repository has been archived **
+This repository is still available as a point-in-time reference, but no further updates or support will be prioritized.
+
 
 このページではAmazonが提供する動画教材シリーズ「Alexa道場：シーズン5 SSML」で使用されたサンプルスキル「なぞなぞクイズ」のソースコードや関連リンクを公開しています。以下の動画教材と合わせてみていただくことで、SSMLを活用したスキルの作成方法を学ぶことができます。
 
